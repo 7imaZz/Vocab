@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/tan_background">
+
+    <LinearLayout
+        android:id="@+id/ll_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/category_nouns">
+    <TextView
+        android:id="@+id/tv_first"
+        android:textDirection="ltr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:text="lutti"
+        android:gravity="bottom"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_second"
+        android:gravity="top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textDirection="ltr"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="one"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:src="@mipmap/baseline_play_arrow_white_36"/>
+</RelativeLayout>
